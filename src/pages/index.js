@@ -1,0 +1,5 @@
+export {default as Home} from './Home/Home'
+export {default as ContactFAC} from './ContactFAC/ContactFAC'
+export {default as Team} from './Team/Team'
+export {default as Events} from './Cevents/Events'
+export {default as Connect} from './Connect/Connect'

@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facc-staging-195117-authRole",
+      "UnauthRoleArn": "arn:aws:iam::655694967300:role/amplify-facc-staging-195117-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::655694967300:role/amplify-facc-staging-195117-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-facc-staging-195117-deployment",
+      "UnauthRoleName": "amplify-facc-staging-195117-unauthRole",
+      "StackName": "amplify-facc-staging-195117",
+      "StackId": "arn:aws:cloudformation:us-east-1:655694967300:stack/amplify-facc-staging-195117/91b65920-4bf9-11ed-88e7-127cd3700d0d",
+      "AmplifyAppId": "detqoy8v0wy9n"
+    }
+  }
+}
