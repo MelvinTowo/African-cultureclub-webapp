@@ -1,13 +1,14 @@
 .app__navbar {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
     position: fixed;
     z-index: 2;
-    border: 1px solid;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.18);
 
 }
@@ -18,8 +19,8 @@
     align-items: center;
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         border-radius: 10px;
         @media screen and (min-width: 2000px){
             width: 300px;
@@ -50,7 +51,7 @@
         }
 
         a {
-            color: grey;
+            color: var(--prusian-blue);
             text-decoration: none;
             flex-direction: column;
             text-transform: uppercase;
@@ -101,13 +102,13 @@
         align-items: flex-end;
         background-size: cover;
         background-repeat: repeat;
-
+        background-image: linear-gradient(to bottom, rgb(236, 182, 191), rgba(141, 170, 141, 0.932));
         box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
 
         svg {
             width: 35px;
             height: 35px;
-            color: grey;
+            color: var(--dark-powderblue);
             margin: 0.5rem 0.1rem;
         }
 
@@ -141,8 +142,8 @@
         @media screen and (min-width: 900px) {
             display: none;
         }
-        @media sceen and (min-width: 900px) {
-            display: none;
-        }
+    }
+    @media screen and (min-width: 900px) {
+        display: none;
     }
 }

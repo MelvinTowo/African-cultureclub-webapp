@@ -2,7 +2,11 @@ import React from 'react'
 
 const Connect = () => {
   return (
-    <div>Connect</div>
+    <div>
+      <h1>
+        Connect
+      </h1>
+    </div>
   )
 }
 
