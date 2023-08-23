@@ -74,7 +74,7 @@
     height: 35px;
     border-radius: 50%;
     position: relative;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-
+        border: solid;
         padding: 1rem;
 
         width: 80%;
@@ -118,7 +118,7 @@
             padding: 0;
             height: 100%;
             width: 100%;
-
+            border: solid;
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
