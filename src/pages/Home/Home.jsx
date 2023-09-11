@@ -13,7 +13,7 @@ const Home = () => {
         <div className="home_description.logo">
           <img src={logo} alt="facc logo" className="home_facclogo" />
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>The Frisco African Culture Club welcomes individuals from all walks of life who share a passion for learning and cultural exchange. Whether you want to participate actively in our events or simply soak up the atmosphere, your presence enriches our community. Immerse yourself in the rhythms of African music, explore the flavors of diverse cuisines, and engage in thought-provoking discussions about contemporary African issues. Our club is your platform to broaden your horizons</p>
        <Link to="/About">
        <motion.button
           whileHover={{scale: 1.2}}

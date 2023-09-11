@@ -1,0 +1,44 @@
+<header>
+          <img src={portal} alt="Portal" />
+          <img src={jollofevent} alt="my jollof is better than yours" />
+          <img src={chapmanevent} alt="sip and paint" />
+          <img src={faccxstandevent} alt="Who is in this club anyways?" />
+          <h2>Welcome</h2>
+        </header>
+        <section>
+          The Frisco African Culture Club is more than just a club; it's a celebration of the multifaceted cultures that make up the African continent. Our mission is to foster a deeper understanding and appreciation of Africa's rich heritage, traditions, and contributions to the world.
+          We're all about creating an inclusive and enjoyable environment where everyone can come together, learn, and have fun. Whether you're a student, a member of the community, or simply curious, there's a place for you here. Expect exciting events, cultural showcases, dance, music, art, and delicious cuisine that will transport you to the heart of Africa.
+        </section>
+
+        Parallax pages={4}>
+          <ParallaxLayer 
+            offset={0}
+            speed={1}
+            factor={2}
+            style={{
+              backgroundImage: `url(${portal})`,
+              backgroundSize: 'cover'
+            }}>
+            
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={2} >
+            <h2>Welcome</h2>
+          </ParallaxLayer>
+
+          <ParallaxLayer>
+            
+          </ParallaxLayer>
+        </Parallax>
+
+        <Parallax pages={5}>
+            <parallaxLayer offset={0} speed={0.5} style={{...alignCenter, justfyContent: 'center'}}>
+              <h1>Welcome!</h1>
+            </parallaxLayer>
+            <parallaxLayer sticky={{ start: 1, end: 3 }}>
+              <img src={jollofevent} alt='my jollof is better than yours'></img>
+            </parallaxLayer>
+            <parallaxLayer>
+              <img src={chapmanevent} alt='Sip and paint' />
+            </parallaxLayer>
+          </Parallax>
